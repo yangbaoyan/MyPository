@@ -1,0 +1,16 @@
+ssh-keygen -t rsa -C "youremail@example.com"
+
+
+git init
+
+git clone https://github.com/yangbaoyan/MyPository.git
+
+git pull https://github.com/yangbaoyan/MyPository.git
+
+git add xxx(更新后的项目)
+
+git commit -m "提交说明"
+
+git remote add origin https://github.com/yangbaoyan/MyPository.git
+
+git push origin master
